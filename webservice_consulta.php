@@ -13,10 +13,10 @@
 		}
 		$cpfs_consulta = implode(",", $cpfs);
 		$cpfs_where = "'" . implode("','", $cpfs) . "'";//Refaz a string
-		$servername = "odin";
-		$username = "mysql";
-		$password = "m15sql";
-		$dbname = "cadastronacional2";
+		$servername = "asdf";
+		$username = "asdf";
+		$password = "asdasdf";
+		$dbname = "asdfasdf";
 
 		$mysqli = new mysqli($servername, $username, $password, $dbname);
 		$mysqli->set_charset("utf8");

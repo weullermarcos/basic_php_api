@@ -13,10 +13,10 @@
 			$cpfs[$i] = preg_replace("/(\d{3})(\d{3})(\d{3})(\d{2})/", "\$1.\$2.\$3-\$4", $cpfs[$i]);
 		}
 
-		$servername = "odin";
-		$username = "mysql";
-		$password = "m15sql";
-		$dbname = "cadastronacional2";
+		$servername = "asdf";
+		$username = "asdf";
+		$password = "asdf";
+		$dbname = "asdf";
 
 		$mysqli = new mysqli($servername, $username, $password, $dbname);
 		$mysqli->set_charset("utf8");
